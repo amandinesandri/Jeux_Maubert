@@ -1,0 +1,1412 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="global_declaration" id="u=dyYG=zmNCb[E08$,8j" x="-1400" y="-289">
+    <field name="NAME">currentQuestionIndex</field>
+    <value name="VALUE">
+      <block type="math_number" id="`W,`_p#1yOTSO;`$Kcvp">
+        <field name="NUM">1</field>
+      </block>
+    </value>
+  </block>
+  <block type="component_event" id="[yd!`XoZ-w)jNH9J9FfC" x="-1457" y="-226">
+    <mutation component_type="Form" is_generic="false" instance_name="Welcome" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">Welcome</field>
+    <statement name="DO">
+      <block type="component_set_get" id="awIL-5kVJ8U@,|NfdIE1">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="QuestionLabel"></mutation>
+        <field name="COMPONENT_SELECTOR">QuestionLabel</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="lists_select_item" id="dcBx8wuMU1!S3_FNMX@,">
+            <value name="LIST">
+              <block type="lexical_variable_get" id="cp1l9kz74hsV=0CoTDC-">
+                <field name="VAR">global QuestionList</field>
+              </block>
+            </value>
+            <value name="NUM">
+              <block type="math_number" id="7.9nEN}r?A_(pvfNQaVq">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="global_declaration" id="wz4Db9t%K7*CFb-MN@ww" x="-567" y="-191">
+    <field name="NAME">QuestionList</field>
+    <value name="VALUE">
+      <block type="lists_create_with" id="g(+NtDmplb](el%~ifr?">
+        <mutation items="78"></mutation>
+        <value name="ADD0">
+          <block type="text" id="Vooti}awiX[:K8+issax">
+            <field name="TEXT">Quel est le prix des verres de vin en général (à part le chenin et le pinot) ?</field>
+          </block>
+        </value>
+        <value name="ADD1">
+          <block type="text" id="a%C0E:B9X*jj|cm4Rd6s">
+            <field name="TEXT">Quel est le prix des bouteilles de vin en général (à part le chenin et le pinot) ?</field>
+          </block>
+        </value>
+        <value name="ADD2">
+          <block type="text" id="_m0wK,4BoDU[Mt/*6(@Y">
+            <field name="TEXT">Quel est le prix des pichets de vin en général (à part le chenin et le pinot) ?</field>
+          </block>
+        </value>
+        <value name="ADD3">
+          <block type="text" id="fQnz+Q=dD1q/`Qm%%|UQ">
+            <field name="TEXT">Quel est le prix d'un verre de chenin ?</field>
+          </block>
+        </value>
+        <value name="ADD4">
+          <block type="text" id="S#sJM!vdj[71gwe#=yt|">
+            <field name="TEXT">Quel est le prix d'un verre de pinot noir ?</field>
+          </block>
+        </value>
+        <value name="ADD5">
+          <block type="text" id="(c23+MMmIU.h|{:|o9Q#">
+            <field name="TEXT">Quel est le prix d'une bouteille de chenin ?</field>
+          </block>
+        </value>
+        <value name="ADD6">
+          <block type="text" id="yeV%8f9fu@5[YfUKlszS">
+            <field name="TEXT">Quel est le prix d'une bouteille de pinot ?</field>
+          </block>
+        </value>
+        <value name="ADD7">
+          <block type="text" id="Ex#s.Bc.dA,AEJ2EG{aC">
+            <field name="TEXT">Quel est le prix d'un pichet de chenin ?</field>
+          </block>
+        </value>
+        <value name="ADD8">
+          <block type="text" id="8H1#pEwIEQ{$U=MiSkwX">
+            <field name="TEXT">Quel est le prix d'un pichet de pinot ?</field>
+          </block>
+        </value>
+        <value name="ADD9">
+          <block type="text" id="czuF`R1]QhaE-{sVOy.l">
+            <field name="TEXT">Comment s'appelle le bar ?</field>
+          </block>
+        </value>
+        <value name="ADD10">
+          <block type="text" id="FwkID],67J0gQeiOP)Lb">
+            <field name="TEXT">Quel est le prix d'une vodka supplément orange ?</field>
+          </block>
+        </value>
+        <value name="ADD11">
+          <block type="text" id="2J3!XW}[V-TA_Pn@yao0">
+            <field name="TEXT">Quel est le prix d'un Beefeater ?</field>
+          </block>
+        </value>
+        <value name="ADD12">
+          <block type="text" id="7~3PL,Y?lCTFd(`mIpI_">
+            <field name="TEXT">Quel est le prix d'un Hendrick's ?</field>
+          </block>
+        </value>
+        <value name="ADD13">
+          <block type="text" id="g_I7(Ku!^d2lUf5//[H2">
+            <field name="TEXT">Quel est le prix d'un Ti punch ?</field>
+          </block>
+        </value>
+        <value name="ADD14">
+          <block type="text" id="i)Sda$Y#d(UW,ZhLoVj^">
+            <field name="TEXT">Quel est le prix d'un Havana Club 3 ans ?</field>
+          </block>
+        </value>
+        <value name="ADD15">
+          <block type="text" id="-Ilp{`0-MJ$}@6X@#PaB">
+            <field name="TEXT">Quel est le prix d'un Clément Vieux VO ?</field>
+          </block>
+        </value>
+        <value name="ADD16">
+          <block type="text" id="VH261zyi},ETIw1{|B%c">
+            <field name="TEXT">Quel est le prix d'un Yellow Snake ?</field>
+          </block>
+        </value>
+        <value name="ADD17">
+          <block type="text" id="|wr9(d,!#5Dck:ZJC6n!">
+            <field name="TEXT">Quel est le prix d'un Trois Rivières triple millésime ?</field>
+          </block>
+        </value>
+        <value name="ADD18">
+          <block type="text" id="0SB`zBW%ny89.Cc/dJ-D">
+            <field name="TEXT">Quel est le prix d'un Diplomatico Reserva Exclusiva ?</field>
+          </block>
+        </value>
+        <value name="ADD19">
+          <block type="text" id="22X5p-^2h6?IHP7.FHRa">
+            <field name="TEXT">Quel est le prix d'un Bally vieux 7 ans?</field>
+          </block>
+        </value>
+        <value name="ADD20">
+          <block type="text" id="}q?{|oD8sA/9~HUBBttj">
+            <field name="TEXT">Quel est le prix d'un Ballantines ?</field>
+          </block>
+        </value>
+        <value name="ADD21">
+          <block type="text" id="LzxHJcDEp0AcY*Dakhb?">
+            <field name="TEXT">Quel est le prix d'un Jack Daniel's ?</field>
+          </block>
+        </value>
+        <value name="ADD22">
+          <block type="text" id="{@eYsX)qL_aG]I[tfB9y">
+            <field name="TEXT">Quel est le prix d'un Aberlour 10 ans ?</field>
+          </block>
+        </value>
+        <value name="ADD23">
+          <block type="text" id="sjA:*$X1HV.wsO:H5aP,">
+            <field name="TEXT">Quel est le prix d'un Oban 14 ans ?</field>
+          </block>
+        </value>
+        <value name="ADD24">
+          <block type="text" id="k+AqocC,OF}hWS;SUNQ~">
+            <field name="TEXT">Quel est le prix d'un Nikka from the barrel ?</field>
+          </block>
+        </value>
+        <value name="ADD25">
+          <block type="text" id="hI_%n4)Q}!5@J(s^6oBD">
+            <field name="TEXT">Quel est le prix d'un Lagavulin 16 ans ?</field>
+          </block>
+        </value>
+        <value name="ADD26">
+          <block type="text" id="npSJCysK22D||qkpYZSF">
+            <field name="TEXT">Quel est le prix d'un Get 27 ?</field>
+          </block>
+        </value>
+        <value name="ADD27">
+          <block type="text" id="}_E9c`vZRfA]F;iGBYZv">
+            <field name="TEXT">Quel est le prix du Poire Williams J.Cartron ?</field>
+          </block>
+        </value>
+        <value name="ADD28">
+          <block type="text" id="3cwAFHDK.o:;E)V]+PoK">
+            <field name="TEXT">Quel est le prix du Calvados Morin Hors d'Age 15 ans ?</field>
+          </block>
+        </value>
+        <value name="ADD29">
+          <block type="text" id="DL-V?:@-A$o@ijcg$uH.">
+            <field name="TEXT">Quel est le prix de la chartreuse verte ?</field>
+          </block>
+        </value>
+        <value name="ADD30">
+          <block type="text" id="ChOYef7xShBbCgXg}J|G">
+            <field name="TEXT">Quel est le prix du Bas Armagnac Château de Ravignan 2006 ?</field>
+          </block>
+        </value>
+        <value name="ADD31">
+          <block type="text" id="^yN4)1Z:QY3ZQCzmVMVF">
+            <field name="TEXT">Quel est le prix du Cognac Hine VSOP ?</field>
+          </block>
+        </value>
+        <value name="ADD32">
+          <block type="text" id="z6IX2ZraZXXn/a-l*^x:">
+            <field name="TEXT">Quel est le prix d'un perrier 33 cL ?</field>
+          </block>
+        </value>
+        <value name="ADD33">
+          <block type="text" id="V+{LyE_gUSK:QE+Y:Xy/">
+            <field name="TEXT">Quel est le prix d'une eau minérale évian ou San Pel 50 cL ?</field>
+          </block>
+        </value>
+        <value name="ADD34">
+          <block type="text" id="ZL_rhJ[MY!te,!ez)M|C">
+            <field name="TEXT">Quel est le prix d'une eau minérale évian ou San Pel 100 cL ?</field>
+          </block>
+        </value>
+        <value name="ADD35">
+          <block type="text" id="st(FXuR^]*6pyL7OCfd0">
+            <field name="TEXT">Quel est le prix d'un kir royal ?</field>
+          </block>
+        </value>
+        <value name="ADD36">
+          <block type="text" id="BN;iBivef}15A$01SoUA">
+            <field name="TEXT">Quel est le prix d'un déca ?</field>
+          </block>
+        </value>
+        <value name="ADD37">
+          <block type="text" id="Dm83earZ8BY=)`yjSFx[">
+            <field name="TEXT">Quel est le prix d'un allongé</field>
+          </block>
+        </value>
+        <value name="ADD38">
+          <block type="text" id="uwd3%@(m/ci}^{l-0!PZ">
+            <field name="TEXT">Quel est le prix d'un café américain</field>
+          </block>
+        </value>
+        <value name="ADD39">
+          <block type="text" id="e0SSe{F?2d3n`tIVcUI=">
+            <field name="TEXT">Quel est le prix d'un café crème</field>
+          </block>
+        </value>
+        <value name="ADD40">
+          <block type="text" id="acnYyqX?!BT(PxjI(0Io">
+            <field name="TEXT">Quel est le prix d'une tartine beurre salé et confiture</field>
+          </block>
+        </value>
+        <value name="ADD41">
+          <block type="text" id="US.~i.:cz|c.IFiVf[SU">
+            <field name="TEXT">Quel est le prix d'un croissant ?</field>
+          </block>
+        </value>
+        <value name="ADD42">
+          <block type="text" id="e^)vM)B@GLDkqJNLA7];">
+            <field name="TEXT">Quel est le prix d'une omelette aux oeufs bio ?</field>
+          </block>
+        </value>
+        <value name="ADD43">
+          <block type="text" id="D#p$S[}SEdV1d$qI.+W~">
+            <field name="TEXT">Quel est le prix d'une formule petit dej ?</field>
+          </block>
+        </value>
+        <value name="ADD44">
+          <block type="text" id="WuDF=@EE[bEmjs6`z3^@">
+            <field name="TEXT">Quel est le prix d'une formule petit dej avec omelette ?</field>
+          </block>
+        </value>
+        <value name="ADD45">
+          <block type="text" id="D[mue,:X$AsTfr;m+AfJ">
+            <field name="TEXT">Quel est le prix d'une eau minérale évian 33 cL ?</field>
+          </block>
+        </value>
+        <value name="ADD46">
+          <block type="text" id="A9KQ,V;-|yZ=d0zG1sR[">
+            <field name="TEXT">Quel est le prix de l'HH ?</field>
+          </block>
+        </value>
+        <value name="ADD47">
+          <block type="text" id="dwSJX1df~Uvi!2rYc*6l">
+            <field name="TEXT">Quel est le prix d'un cappucino ?</field>
+          </block>
+        </value>
+        <value name="ADD48">
+          <block type="text" id="KjG%--W7vt0(_20jcd6J">
+            <field name="TEXT">Quel est le prix d'un expresso ?</field>
+          </block>
+        </value>
+        <value name="ADD49">
+          <block type="text" id="3$-kg1EZzS@!N5#$XrQO">
+            <field name="TEXT">Quel est le prix d'un noisette ?</field>
+          </block>
+        </value>
+        <value name="ADD50">
+          <block type="text" id="(:]_pw!in:6bn*,8/{/_">
+            <field name="TEXT">Quel est le prix d'un double café ?</field>
+          </block>
+        </value>
+        <value name="ADD51">
+          <block type="text" id="rMHm+W`IoA0sj20vJ:Z`">
+            <field name="TEXT">Quel est le prix d'un chocolat chaud ?</field>
+          </block>
+        </value>
+        <value name="ADD52">
+          <block type="text" id="+zVnc#j~q:QyB_y:e5i%">
+            <field name="TEXT">Quel est le prix d'un café ou chocolat viennois ?</field>
+          </block>
+        </value>
+        <value name="ADD53">
+          <block type="text" id="}XLvYdpAG_W{:4-@hB)d">
+            <field name="TEXT">Quel est le prix d'un macchiato ?</field>
+          </block>
+        </value>
+        <value name="ADD54">
+          <block type="text" id="14phGO$]V-p.^1)kjMS#">
+            <field name="TEXT">Quel est le prix d'un citron chaud bio ?</field>
+          </block>
+        </value>
+        <value name="ADD55">
+          <block type="text" id="8n$J`)9xaK+MEA9nZ`Qm">
+            <field name="TEXT">Quel est le prix d'un thé ?</field>
+          </block>
+        </value>
+        <value name="ADD56">
+          <block type="text" id="j,f84.%H2wqs|*@Q(!6A">
+            <field name="TEXT">Quel est le prix d'une infusion ?</field>
+          </block>
+        </value>
+        <value name="ADD57">
+          <block type="text" id="),SP7GIb=P$F?Z?*ymeE">
+            <field name="TEXT">Quel est le prix d'un vin chaud ?</field>
+          </block>
+        </value>
+        <value name="ADD58">
+          <block type="text" id="Y:qSr;,FuN`8ad4B@Fnr">
+            <field name="TEXT">Quel est le prix d'un soda ?</field>
+          </block>
+        </value>
+        <value name="ADD59">
+          <block type="text" id="-fj9#nd3_Ar1qE@+UYSO">
+            <field name="TEXT">Quel est le prix d'un grog ?</field>
+          </block>
+        </value>
+        <value name="ADD60">
+          <block type="text" id=",e*krK!upUtr@B)uRv/]">
+            <field name="TEXT">Quel est le prix d'un irish cofee ?</field>
+          </block>
+        </value>
+        <value name="ADD61">
+          <block type="text" id="21}`rqtX1^8RdT,u;s_H">
+            <field name="TEXT">Quel est le prix d'un citron ou orange bio pressés ?</field>
+          </block>
+        </value>
+        <value name="ADD62">
+          <block type="text" id="CCK|~L-S$bGJn[eV9.Mb">
+            <field name="TEXT">Quel est le prix d'une pinte de 1664 hors HH ?</field>
+          </block>
+        </value>
+        <value name="ADD63">
+          <block type="text" id="-}[UO^r3)MhpUjVj8~e2">
+            <field name="TEXT">Quel est le prix d'une pinte de Colomba hors HH ?</field>
+          </block>
+        </value>
+        <value name="ADD64">
+          <block type="text" id="r/,/y*5a41s1|ib_;4@(">
+            <field name="TEXT">Quel est le prix d'une pinte de Grimbergen hors HH ?</field>
+          </block>
+        </value>
+        <value name="ADD65">
+          <block type="text" id="2x3y6+[`m]i*ns)sALuk">
+            <field name="TEXT">Quel est le prix d'une pinte de Brooklyn hors HH ?</field>
+          </block>
+        </value>
+        <value name="ADD66">
+          <block type="text" id="G6[},UQ{+Cly{;~dwC9K">
+            <field name="TEXT">Quel est le prix d'un demi de 1664 ?</field>
+          </block>
+        </value>
+        <value name="ADD67">
+          <block type="text" id="_Sb)J}H55*|~6[etD:3O">
+            <field name="TEXT">Quel est le prix d'un demi de Colomba ?</field>
+          </block>
+        </value>
+        <value name="ADD68">
+          <block type="text" id="tUB-{E0%rkM*bEK^Zv%C">
+            <field name="TEXT">Quel est le prix d'un demi de Grimbergen ?</field>
+          </block>
+        </value>
+        <value name="ADD69">
+          <block type="text" id="1):7PLJ{a=5QI[EJU-49">
+            <field name="TEXT">Quel est le prix d'un demi de Brooklyn ?</field>
+          </block>
+        </value>
+        <value name="ADD70">
+          <block type="text" id="lB$a~!onL|rA;#/|kD;{">
+            <field name="TEXT">Quel est le prix d'un demi de picon bière ?</field>
+          </block>
+        </value>
+        <value name="ADD71">
+          <block type="text" id="|k$CAD/kERfBAHNa%51j">
+            <field name="TEXT">Quel est le prix d'une pinte picon bière hors HH ?</field>
+          </block>
+        </value>
+        <value name="ADD72">
+          <block type="text" id="cMxy7;:=K~_hPgHDrp!%">
+            <field name="TEXT">Quel est le prix d'une coupe de champagne hors HH ?</field>
+          </block>
+        </value>
+        <value name="ADD73">
+          <block type="text" id="w2$a:O2x)_g.{}(27mPb">
+            <field name="TEXT">Quel est le prix d'un ricard ?</field>
+          </block>
+        </value>
+        <value name="ADD74">
+          <block type="text" id="JN=9qzIIEk,K/ym3zr#m">
+            <field name="TEXT">Quel est le prix des bières bouteilles ?</field>
+          </block>
+        </value>
+        <value name="ADD75">
+          <block type="text" id="]tjA7ZMO5CL3KFbey=b7">
+            <field name="TEXT">Quel est le prix de la vodka sans orange ?</field>
+          </block>
+        </value>
+        <value name="ADD76">
+          <block type="text" id="I;P.%K%3X]yF|BCGLdp*">
+            <field name="TEXT">Quel est le prix d'un apéritif (kir, ricard, suze, porto, martini, campari  ?</field>
+          </block>
+        </value>
+        <value name="ADD77">
+          <block type="text" id="{1AB,VeGPr`5.8(,d[i}">
+            <field name="TEXT">Quel est le prix d'une bouteille de champ ?</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="component_event" id="L{]z/Qc}=aQGkZ2Vq/L~" x="-1434" y="-102">
+    <mutation component_type="Button" is_generic="false" instance_name="NextButton" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">NextButton</field>
+    <statement name="DO">
+      <block type="component_set_get" id="THyD^{`p?!KNC;%,u}vy">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="RightWrongLabel"></mutation>
+        <field name="COMPONENT_SELECTOR">RightWrongLabel</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="text" id="1;eb`m7:Frxp/7]shXss">
+            <field name="TEXT"></field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="ZG,.0#gS^N._-{284xgc">
+            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="AnswerText"></mutation>
+            <field name="COMPONENT_SELECTOR">AnswerText</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="text" id="SZWpzbo3HWecOWV$CBCN">
+                <field name="TEXT"></field>
+              </block>
+            </value>
+            <next>
+              <block type="controls_if" id="CV?5B6pfxqZHoN!,|Tmn">
+                <value name="IF0">
+                  <block type="math_compare" id="hPx@H_AeP6FP,e8}6Mvw">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="lexical_variable_get" id="*+NI!~]488!3(^kA%~u`">
+                        <field name="VAR">global currentQuestionIndex</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="lists_length" id="AsD3C1_u8+u~Nhm/P81(">
+                        <value name="LIST">
+                          <block type="lexical_variable_get" id="_`@`f%gJF6J$bGxdvKyx">
+                            <field name="VAR">global QuestionList</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="lexical_variable_set" id="HIVAI+-x:I*qU8,m-y@]">
+                    <field name="VAR">global currentQuestionIndex</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="+#ZWn!/gg;?iiEBk}^nI">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+                <next>
+                  <block type="lexical_variable_set" id="Ru=gt@riV2AxVJDor.,T">
+                    <field name="VAR">global currentQuestionIndex</field>
+                    <value name="VALUE">
+                      <block type="math_add" id="}Rtz[uiwb|g;KZ;;[(1T">
+                        <mutation items="2"></mutation>
+                        <value name="NUM0">
+                          <block type="lexical_variable_get" id="h(Q6Av/d4`m*LNi^D.g9">
+                            <field name="VAR">global currentQuestionIndex</field>
+                          </block>
+                        </value>
+                        <value name="NUM1">
+                          <block type="math_number" id="1F]$=P[#.]vp02~k()b!">
+                            <field name="NUM">1</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_set_get" id=")$Dr#:(%BGAbIMRHt2nA">
+                        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="QuestionLabel"></mutation>
+                        <field name="COMPONENT_SELECTOR">QuestionLabel</field>
+                        <field name="PROP">Text</field>
+                        <value name="VALUE">
+                          <block type="lists_select_item" id=".md[qpkA)^a@@Or6KoL4">
+                            <value name="LIST">
+                              <block type="lexical_variable_get" id="U],h@)CqI5B]l~i=w`/~">
+                                <field name="VAR">global QuestionList</field>
+                              </block>
+                            </value>
+                            <value name="NUM">
+                              <block type="lexical_variable_get" id="MGv).b9m2vA#-R9T/YMz">
+                                <field name="VAR">global currentQuestionIndex</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_set_get" id="lEGy=9%P,XDDGVI/EG*=">
+                            <mutation component_type="Image" set_or_get="set" property_name="Picture" is_generic="false" instance_name="Image1"></mutation>
+                            <field name="COMPONENT_SELECTOR">Image1</field>
+                            <field name="PROP">Picture</field>
+                            <value name="VALUE">
+                              <block type="lists_select_item" id="H@a.D0%0VwQ?$4le_a$P">
+                                <value name="LIST">
+                                  <block type="lexical_variable_get" id=",Ldr!l@p{SOLxxVb!@FR">
+                                    <field name="VAR">global pictures</field>
+                                  </block>
+                                </value>
+                                <value name="NUM">
+                                  <block type="lexical_variable_get" id="z[WuD]/E:bs(RQ(tAz2F">
+                                    <field name="VAR">global currentQuestionIndex</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="global_declaration" id=".H@12BjPbR5g5?nvk[WW" x="315" y="-189">
+    <field name="NAME">pictures</field>
+    <value name="VALUE">
+      <block type="lists_create_with" id="6Rk@WdVdn?W*~3;H_N5z">
+        <mutation items="78"></mutation>
+        <value name="ADD0">
+          <block type="text" id="-8bTqIoT,l`hGJTvE?1I">
+            <field name="TEXT">verrevin.jpg</field>
+          </block>
+        </value>
+        <value name="ADD1">
+          <block type="text" id="IL2Ny]aJZ{)B%/qgR#St">
+            <field name="TEXT">teilleVin.jpg</field>
+          </block>
+        </value>
+        <value name="ADD2">
+          <block type="text" id="{W.aCulcS$~mW~{Md[eG">
+            <field name="TEXT">pichetVin.jpg</field>
+          </block>
+        </value>
+        <value name="ADD3">
+          <block type="text" id="G!xvW1$v4$U9o@-*lmkm">
+            <field name="TEXT">verreChenin.jpg</field>
+          </block>
+        </value>
+        <value name="ADD4">
+          <block type="text" id="Dtvph_q0x)vk{4NhBCrR">
+            <field name="TEXT">verrePinot.jpg</field>
+          </block>
+        </value>
+        <value name="ADD5">
+          <block type="text" id="OHrJsRgv,7F^I;n1K1}7">
+            <field name="TEXT">teilleChenin.jpg</field>
+          </block>
+        </value>
+        <value name="ADD6">
+          <block type="text" id="sE:;d`@k1~g@.4e5dX(C">
+            <field name="TEXT">teillePinot.jpg</field>
+          </block>
+        </value>
+        <value name="ADD7">
+          <block type="text" id="#(-#CplQ_[[MCU3sA{L!">
+            <field name="TEXT">pichetChenin.jpg</field>
+          </block>
+        </value>
+        <value name="ADD8">
+          <block type="text" id="{!pHxC`k%RRAOus:[65x">
+            <field name="TEXT">pichetPinot.jpg</field>
+          </block>
+        </value>
+        <value name="ADD9">
+          <block type="text" id="?8i|bx]8|F.`}371@CG^">
+            <field name="TEXT">iconApp.jpg</field>
+          </block>
+        </value>
+        <value name="ADD10">
+          <block type="text" id="%L!nYt^~yY#$c,DW`snm">
+            <field name="TEXT">vodkaSupplOrange.jpg</field>
+          </block>
+        </value>
+        <value name="ADD11">
+          <block type="text" id="pNL9LAezFt{rrV5@4Xdg">
+            <field name="TEXT">Beefeater.jpg</field>
+          </block>
+        </value>
+        <value name="ADD12">
+          <block type="text" id="kajo{/~{G`W}ga45bWML">
+            <field name="TEXT">Hendrick.jpg</field>
+          </block>
+        </value>
+        <value name="ADD13">
+          <block type="text" id="clOJCDBBw)p#g?NBe?-q">
+            <field name="TEXT">punch.jpg</field>
+          </block>
+        </value>
+        <value name="ADD14">
+          <block type="text" id="EsyjBN*AQGda/WAp}!PX">
+            <field name="TEXT">Havana.jpg</field>
+          </block>
+        </value>
+        <value name="ADD15">
+          <block type="text" id="G,I|D$eF`cBs,%eVQ|T7">
+            <field name="TEXT">clementVieux.jpg</field>
+          </block>
+        </value>
+        <value name="ADD16">
+          <block type="text" id="1z(J;azB+_f9noU#Jc.v">
+            <field name="TEXT">yellow.jpg</field>
+          </block>
+        </value>
+        <value name="ADD17">
+          <block type="text" id="F]civL#,S9?q8Ypd/[!s">
+            <field name="TEXT">troisRivieres.jpg</field>
+          </block>
+        </value>
+        <value name="ADD18">
+          <block type="text" id="uE#F^4!cm41v3!eUjPYT">
+            <field name="TEXT">diplomatico.jpg</field>
+          </block>
+        </value>
+        <value name="ADD19">
+          <block type="text" id="@n_4Z9vfl4XEWf*2FCus">
+            <field name="TEXT">bally.jpg</field>
+          </block>
+        </value>
+        <value name="ADD20">
+          <block type="text" id="}]ci`t$Gd`?a{Zb3!POa">
+            <field name="TEXT">ballantines.jpg</field>
+          </block>
+        </value>
+        <value name="ADD21">
+          <block type="text" id="4?dfj3-qs}Afi0rI6E.T">
+            <field name="TEXT">jack.jpg</field>
+          </block>
+        </value>
+        <value name="ADD22">
+          <block type="text" id="{c`laC_-!oT8yIC7~k|Z">
+            <field name="TEXT">aberlour.jpg</field>
+          </block>
+        </value>
+        <value name="ADD23">
+          <block type="text" id="Jb]wI=O};q(mQa1VS.dv">
+            <field name="TEXT">oban.jpg</field>
+          </block>
+        </value>
+        <value name="ADD24">
+          <block type="text" id=".~Q76VTXuJsS.3NU#t9E">
+            <field name="TEXT">nikka.jpg</field>
+          </block>
+        </value>
+        <value name="ADD25">
+          <block type="text" id="O?OWs7pvKZBUG;{|n,Yk">
+            <field name="TEXT">lavagullin.jpg</field>
+          </block>
+        </value>
+        <value name="ADD26">
+          <block type="text" id="jR#+v,Q6$i92Ga${TF/A">
+            <field name="TEXT">get27.jpg</field>
+          </block>
+        </value>
+        <value name="ADD27">
+          <block type="text" id="GAsOM~jhb9D}*;73hnJ8">
+            <field name="TEXT">poire.jpg</field>
+          </block>
+        </value>
+        <value name="ADD28">
+          <block type="text" id="%)eLqChyF3k-#^!3eCXN">
+            <field name="TEXT">calvados.jpg</field>
+          </block>
+        </value>
+        <value name="ADD29">
+          <block type="text" id="UR5vjW$^zlYH#Wisc)lO">
+            <field name="TEXT">chartreuse.jpg</field>
+          </block>
+        </value>
+        <value name="ADD30">
+          <block type="text" id="HYr?C@ce~8Hz^v:qGPdY">
+            <field name="TEXT">armagnac.jpg</field>
+          </block>
+        </value>
+        <value name="ADD31">
+          <block type="text" id="!OWrX_@#3X9KKs/]@aDl">
+            <field name="TEXT">cognac.jpg</field>
+          </block>
+        </value>
+        <value name="ADD32">
+          <block type="text" id="~#_kl-gxuipNZC9}D0ro">
+            <field name="TEXT">perrier33.jpg</field>
+          </block>
+        </value>
+        <value name="ADD33">
+          <block type="text" id="KJ%QfB.qGI4d[p{UVKd!">
+            <field name="TEXT">evian_sanpel50.jpg</field>
+          </block>
+        </value>
+        <value name="ADD34">
+          <block type="text" id="^xNQ4J4uS4pzRM+y)veM">
+            <field name="TEXT">evian_sanpel100.jpg</field>
+          </block>
+        </value>
+        <value name="ADD35">
+          <block type="text" id="%eOo,39~Y#OE;iZzKh0p">
+            <field name="TEXT">kir_royal.jpg</field>
+          </block>
+        </value>
+        <value name="ADD36">
+          <block type="text" id="9P_C*7BP8Es1Hp(tK,E.">
+            <field name="TEXT">deca.jpg</field>
+          </block>
+        </value>
+        <value name="ADD37">
+          <block type="text" id="|Q{ZgR_FY$Q!Kziy;x($">
+            <field name="TEXT">allonge.jpg</field>
+          </block>
+        </value>
+        <value name="ADD38">
+          <block type="text" id="6p]enCU8m5/,bdw4HCPd">
+            <field name="TEXT">americain.jpg</field>
+          </block>
+        </value>
+        <value name="ADD39">
+          <block type="text" id="U=Ub%|d-/4;h]q/q_Pcn">
+            <field name="TEXT">cafecreme.jpg</field>
+          </block>
+        </value>
+        <value name="ADD40">
+          <block type="text" id="+#I]$_CX$}tafY]G%W,]">
+            <field name="TEXT">tartine.jpg</field>
+          </block>
+        </value>
+        <value name="ADD41">
+          <block type="text" id="j#con0]$CqDcuKRB7.0^">
+            <field name="TEXT">croissant.jpg</field>
+          </block>
+        </value>
+        <value name="ADD42">
+          <block type="text" id="4CE6~jZ37$*CQia(c{kt">
+            <field name="TEXT">Omelette.jpg</field>
+          </block>
+        </value>
+        <value name="ADD43">
+          <block type="text" id="Q[exsNj8*a?`L1{)WS]D">
+            <field name="TEXT">formule.jpg</field>
+          </block>
+        </value>
+        <value name="ADD44">
+          <block type="text" id="c$*L42k3qvgJT)1xtW}P">
+            <field name="TEXT">formuleOmelette.jpg</field>
+          </block>
+        </value>
+        <value name="ADD45">
+          <block type="text" id="taH6-db2HEByN]_QE3,:">
+            <field name="TEXT">evian33.jpg</field>
+          </block>
+        </value>
+        <value name="ADD46">
+          <block type="text" id="`%U.4Q7V`rf?D9^J~BMu">
+            <field name="TEXT">HH.jpg</field>
+          </block>
+        </value>
+        <value name="ADD47">
+          <block type="text" id="Z^eq28tpC?I$FU4*aaQM">
+            <field name="TEXT">cappuccino.jpg</field>
+          </block>
+        </value>
+        <value name="ADD48">
+          <block type="text" id="Xb#~`?*?[Eua4o_IRM]X">
+            <field name="TEXT">expresso.jpg</field>
+          </block>
+        </value>
+        <value name="ADD49">
+          <block type="text" id="zBa]EBPk-o;VS{Yvb?pf">
+            <field name="TEXT">noisette.jpg</field>
+          </block>
+        </value>
+        <value name="ADD50">
+          <block type="text" id="d(ARXu{H`*#_E@6R~3[3">
+            <field name="TEXT">doublecafe.jpg</field>
+          </block>
+        </value>
+        <value name="ADD51">
+          <block type="text" id="dEzGO)=n3/V7?T5$JjE?">
+            <field name="TEXT">chocochaud.jpg</field>
+          </block>
+        </value>
+        <value name="ADD52">
+          <block type="text" id="TLm^|J{qL,Ml47#$U7q^">
+            <field name="TEXT">viennois.jpg</field>
+          </block>
+        </value>
+        <value name="ADD53">
+          <block type="text" id="a0Q}Hn|LcoE5HM7Z][+/">
+            <field name="TEXT">macchiato.jpg</field>
+          </block>
+        </value>
+        <value name="ADD54">
+          <block type="text" id="CzRf.e0PQYh3|=R,j.eS">
+            <field name="TEXT">citronchaudbio.jpg</field>
+          </block>
+        </value>
+        <value name="ADD55">
+          <block type="text" id="XykL[P.RF?AGEa}3Et.;">
+            <field name="TEXT">the.jpg</field>
+          </block>
+        </value>
+        <value name="ADD56">
+          <block type="text" id="sAhG4?wQXgX=d~vDuQ5]">
+            <field name="TEXT">infusion.jpg</field>
+          </block>
+        </value>
+        <value name="ADD57">
+          <block type="text" id=")4TZI{J3?RttJPf%nYz]">
+            <field name="TEXT">vinchaud</field>
+          </block>
+        </value>
+        <value name="ADD58">
+          <block type="text" id="qk]M+!zYDJ*%@yji/sWm">
+            <field name="TEXT">sodas.jpg</field>
+          </block>
+        </value>
+        <value name="ADD59">
+          <block type="text" id="7);^A:?@I@J?Af=*ZvVe">
+            <field name="TEXT">grog.jpg</field>
+          </block>
+        </value>
+        <value name="ADD60">
+          <block type="text" id="u=(c$mylU#H!0g@B5V,v">
+            <field name="TEXT">irishcofee.jpg</field>
+          </block>
+        </value>
+        <value name="ADD61">
+          <block type="text" id="M2^)5gnL+();K@j^i^wp">
+            <field name="TEXT">orangecitronbiopresses.jpg</field>
+          </block>
+        </value>
+        <value name="ADD62">
+          <block type="text" id="e9lV0vvYn#B!09Ll{bUs">
+            <field name="TEXT">seizehorsHH.jpg</field>
+          </block>
+        </value>
+        <value name="ADD63">
+          <block type="text" id="5IW~kQO+)d:yV[%|a2Jk">
+            <field name="TEXT">colombahorsHH.jpg</field>
+          </block>
+        </value>
+        <value name="ADD64">
+          <block type="text" id="d_Y)G{4j#elx52_VZ89S">
+            <field name="TEXT">grimhorsHH.jpg</field>
+          </block>
+        </value>
+        <value name="ADD65">
+          <block type="text" id="|_[}f#]HhF%+am:Q@cAj">
+            <field name="TEXT">brookhorsHH.jpg</field>
+          </block>
+        </value>
+        <value name="ADD66">
+          <block type="text" id="tDMOB({9ZNq)gRQ.R(zw">
+            <field name="TEXT">seizedemi.jpg</field>
+          </block>
+        </value>
+        <value name="ADD67">
+          <block type="text" id="r2(_X!DF%}1mafAUu2al">
+            <field name="TEXT">colombademi.jpg</field>
+          </block>
+        </value>
+        <value name="ADD68">
+          <block type="text" id="Mk3,)PW9nD3Qe(7/Vo$W">
+            <field name="TEXT">grimdemi.jpg</field>
+          </block>
+        </value>
+        <value name="ADD69">
+          <block type="text" id="~CgZ6Zv2TyyM5n0cnN7;">
+            <field name="TEXT">brookdemi.jpg</field>
+          </block>
+        </value>
+        <value name="ADD70">
+          <block type="text" id="TKo(:pxsjnzakM=o@y]X">
+            <field name="TEXT">picondemi.jpg</field>
+          </block>
+        </value>
+        <value name="ADD71">
+          <block type="text" id="q=9?Y#@;QD9@Dr*2VMX_">
+            <field name="TEXT">piconhorsHH.jpg</field>
+          </block>
+        </value>
+        <value name="ADD72">
+          <block type="text" id="(m13j^KzP*,[}J!tsK:;">
+            <field name="TEXT">champhorsHH.jpg</field>
+          </block>
+        </value>
+        <value name="ADD73">
+          <block type="text" id="@Wo9Zp`bqowzcxiq_E-8">
+            <field name="TEXT">ricard.jpg</field>
+          </block>
+        </value>
+        <value name="ADD74">
+          <block type="text" id="fap[FASnl(T*J(k7Ae/$">
+            <field name="TEXT">bierebtle.jpg</field>
+          </block>
+        </value>
+        <value name="ADD75">
+          <block type="text" id="ZIb`q,B2r,7NzEs6^NPU">
+            <field name="TEXT">vodka.jpg</field>
+          </block>
+        </value>
+        <value name="ADD76">
+          <block type="text" id="3P*)M?eYdSV;Ev9bZwi$">
+            <field name="TEXT">aperitif.jpg</field>
+          </block>
+        </value>
+        <value name="ADD77">
+          <block type="text" id=";jEy-1f@17DQ%#rwLB_n">
+            <field name="TEXT">champteille.jpg</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="global_declaration" id="/iII1X1)qPJW=XU;dK04" x="952" y="-199">
+    <field name="NAME">AnswerList</field>
+    <value name="VALUE">
+      <block type="lists_create_with" id="6qef:^42`qxCBbViragp">
+        <mutation items="78"></mutation>
+        <value name="ADD0">
+          <block type="text" id="3%cvnYmTjP/$A2hE=POE">
+            <field name="TEXT">5</field>
+          </block>
+        </value>
+        <value name="ADD1">
+          <block type="text" id="?l9*QuF9B:R;,h4RrdJl">
+            <field name="TEXT">15,50</field>
+          </block>
+        </value>
+        <value name="ADD2">
+          <block type="text" id=".iPa|*3c/b^tF@B/kNt/">
+            <field name="TEXT">24</field>
+          </block>
+        </value>
+        <value name="ADD3">
+          <block type="text" id="KE].rV;4{-^d.M9kze:G">
+            <field name="TEXT">4,50</field>
+          </block>
+        </value>
+        <value name="ADD4">
+          <block type="text" id="fCsQ3}jv:f]6vs5NTrnX">
+            <field name="TEXT">4,50</field>
+          </block>
+        </value>
+        <value name="ADD5">
+          <block type="text" id="1[xcrEbTz7/m{@B$CUB$">
+            <field name="TEXT">22</field>
+          </block>
+        </value>
+        <value name="ADD6">
+          <block type="text" id="d)EKwCaOpEtVZFqAAj|F">
+            <field name="TEXT">22</field>
+          </block>
+        </value>
+        <value name="ADD7">
+          <block type="text" id="^QySRAa+US5#Uk0Wh41%">
+            <field name="TEXT">14,50</field>
+          </block>
+        </value>
+        <value name="ADD8">
+          <block type="text" id=",$77}K$KSr]%1xu?M4Hm">
+            <field name="TEXT">14,50</field>
+          </block>
+        </value>
+        <value name="ADD9">
+          <block type="text" id=")JS-Bp31n+@@bxvEVtav">
+            <field name="TEXT">Maubert</field>
+          </block>
+        </value>
+        <value name="ADD10">
+          <block type="text" id="Pmqh%[)KVMXLo-Rn/=`i">
+            <field name="TEXT">9</field>
+          </block>
+        </value>
+        <value name="ADD11">
+          <block type="text" id="sd,IJ0Lv$J3o(-)4R*91">
+            <field name="TEXT">7</field>
+          </block>
+        </value>
+        <value name="ADD12">
+          <block type="text" id=",y2V-ZczA6I6SEk;g7Im">
+            <field name="TEXT">10</field>
+          </block>
+        </value>
+        <value name="ADD13">
+          <block type="text" id="V$jh2_0?FX^sTJ_?_a76">
+            <field name="TEXT">7</field>
+          </block>
+        </value>
+        <value name="ADD14">
+          <block type="text" id="qMrE*=W8~s`o4j!/:sun">
+            <field name="TEXT">7</field>
+          </block>
+        </value>
+        <value name="ADD15">
+          <block type="text" id="ly:3iU8G(hZLl;AR!jKM">
+            <field name="TEXT">8</field>
+          </block>
+        </value>
+        <value name="ADD16">
+          <block type="text" id="p0y[~dkB[ww4x]vgU9ib">
+            <field name="TEXT">8</field>
+          </block>
+        </value>
+        <value name="ADD17">
+          <block type="text" id="|1v]h3#VW}(=T$+0]W|:">
+            <field name="TEXT">10</field>
+          </block>
+        </value>
+        <value name="ADD18">
+          <block type="text" id="Cu?T94m3/HZ^RRAHN+|H">
+            <field name="TEXT">10</field>
+          </block>
+        </value>
+        <value name="ADD19">
+          <block type="text" id="U.1w!T(Ab4Ve7#n}@-?O">
+            <field name="TEXT">12</field>
+          </block>
+        </value>
+        <value name="ADD20">
+          <block type="text" id="M{2MrMP4|,~eDWFU#!yc">
+            <field name="TEXT">7</field>
+          </block>
+        </value>
+        <value name="ADD21">
+          <block type="text" id="_d~lOJz@A}x|_)KFalat">
+            <field name="TEXT">8</field>
+          </block>
+        </value>
+        <value name="ADD22">
+          <block type="text" id="7,T6t;{}w?t:B[2D6Z~Z">
+            <field name="TEXT">8</field>
+          </block>
+        </value>
+        <value name="ADD23">
+          <block type="text" id="FVB4DPM/4:Mubfrc0;u/">
+            <field name="TEXT">10</field>
+          </block>
+        </value>
+        <value name="ADD24">
+          <block type="text" id="9n$]7I(YxS1n+GW,2coH">
+            <field name="TEXT">12</field>
+          </block>
+        </value>
+        <value name="ADD25">
+          <block type="text" id="#q$R!{?sPp}Ao?Pk^cr]">
+            <field name="TEXT">12</field>
+          </block>
+        </value>
+        <value name="ADD26">
+          <block type="text" id="g7ip4-:M8~tAO6[MJcS]">
+            <field name="TEXT">7</field>
+          </block>
+        </value>
+        <value name="ADD27">
+          <block type="text" id="Je#PLvsipMJ@t7(0P],=">
+            <field name="TEXT">10</field>
+          </block>
+        </value>
+        <value name="ADD28">
+          <block type="text" id=")632F?Ub7pW:Dbu3@X5V">
+            <field name="TEXT">10</field>
+          </block>
+        </value>
+        <value name="ADD29">
+          <block type="text" id="N[b)oj$no$sdPJyR4za*">
+            <field name="TEXT">10</field>
+          </block>
+        </value>
+        <value name="ADD30">
+          <block type="text" id="L1H|!YIbmG8^HX]EWIsY">
+            <field name="TEXT">10</field>
+          </block>
+        </value>
+        <value name="ADD31">
+          <block type="text" id="3+c-{.3nt5.T[7]Za}G;">
+            <field name="TEXT">10</field>
+          </block>
+        </value>
+        <value name="ADD32">
+          <block type="text" id="Mg.dKpz19PUn/e=]_$m#">
+            <field name="TEXT">4,80</field>
+          </block>
+        </value>
+        <value name="ADD33">
+          <block type="text" id="u{kNKX:n=aJg9{Bz9mNM">
+            <field name="TEXT">5</field>
+          </block>
+        </value>
+        <value name="ADD34">
+          <block type="text" id="5-tx8Phc2/[P4eZituW=">
+            <field name="TEXT">6</field>
+          </block>
+        </value>
+        <value name="ADD35">
+          <block type="text" id="]mU0|^^ar^Zy:i@IUMii">
+            <field name="TEXT">9,50</field>
+          </block>
+        </value>
+        <value name="ADD36">
+          <block type="text" id="[rlqJ/rw*}!uXZW|h7#n">
+            <field name="TEXT">2,30</field>
+          </block>
+        </value>
+        <value name="ADD37">
+          <block type="text" id="hUzHQF0qDtXNapy;,|XF">
+            <field name="TEXT">2,30</field>
+          </block>
+        </value>
+        <value name="ADD38">
+          <block type="text" id="[iPv~(M66s3q:eHW!:#X">
+            <field name="TEXT">4,20</field>
+          </block>
+        </value>
+        <value name="ADD39">
+          <block type="text" id="}lMyK]-f)_lVX4{s:b0^">
+            <field name="TEXT">4,20</field>
+          </block>
+        </value>
+        <value name="ADD40">
+          <block type="text" id="3B2r2Wj-m(xx}xL6Xy3$">
+            <field name="TEXT">2</field>
+          </block>
+        </value>
+        <value name="ADD41">
+          <block type="text" id="^p}=jLoCW|Nx($)NAkeB">
+            <field name="TEXT">2</field>
+          </block>
+        </value>
+        <value name="ADD42">
+          <block type="text" id="@}i`akR5m0]wtpD4ee!=">
+            <field name="TEXT">6,50</field>
+          </block>
+        </value>
+        <value name="ADD43">
+          <block type="text" id="`a^o54mKR0ZW-*$,v`pb">
+            <field name="TEXT">8,50</field>
+          </block>
+        </value>
+        <value name="ADD44">
+          <block type="text" id="[!2*h*dXa=$pD=Mkyd*D">
+            <field name="TEXT">14</field>
+          </block>
+        </value>
+        <value name="ADD45">
+          <block type="text" id="3oNJpaf2{o-w?H[Ro]XP">
+            <field name="TEXT">4</field>
+          </block>
+        </value>
+        <value name="ADD46">
+          <block type="text" id="AkeEpEG)uacn@jxhaFcj">
+            <field name="TEXT">6</field>
+          </block>
+        </value>
+        <value name="ADD47">
+          <block type="text" id="#S90~|5V:IH+gTf:A|`5">
+            <field name="TEXT">5</field>
+          </block>
+        </value>
+        <value name="ADD48">
+          <block type="text" id="Cb?39U.*vKO,my+1c)D^">
+            <field name="TEXT">2,30</field>
+          </block>
+        </value>
+        <value name="ADD49">
+          <block type="text" id="ie[h3m(4Q:~T(a/c{w#-">
+            <field name="TEXT">2,50</field>
+          </block>
+        </value>
+        <value name="ADD50">
+          <block type="text" id="wg]~YfU7)1-Z0jEHOPNY">
+            <field name="TEXT">4,20</field>
+          </block>
+        </value>
+        <value name="ADD51">
+          <block type="text" id="wZ6T~|k.Xq=dZY6Xw@+~">
+            <field name="TEXT">4,50</field>
+          </block>
+        </value>
+        <value name="ADD52">
+          <block type="text" id="3:!+%o`rAlH(]JiPbPeX">
+            <field name="TEXT">5,50</field>
+          </block>
+        </value>
+        <value name="ADD53">
+          <block type="text" id="uY}@LZpgZAq=[~!{Mss{">
+            <field name="TEXT">5</field>
+          </block>
+        </value>
+        <value name="ADD54">
+          <block type="text" id="`Zk}9ON2sGWR%,`8v:Xm">
+            <field name="TEXT">5</field>
+          </block>
+        </value>
+        <value name="ADD55">
+          <block type="text" id="ZhxLa!9BVK=6E!Xkw+Qx">
+            <field name="TEXT">4,20</field>
+          </block>
+        </value>
+        <value name="ADD56">
+          <block type="text" id="f^]5?Rq4rxT4`~?x}yVW">
+            <field name="TEXT">4,20</field>
+          </block>
+        </value>
+        <value name="ADD57">
+          <block type="text" id="8m`eDHN(.x{L:?yh$~i9">
+            <field name="TEXT">4,20</field>
+          </block>
+        </value>
+        <value name="ADD58">
+          <block type="text" id="[l=xCTHKa+e0VnU#h%q%">
+            <field name="TEXT">5</field>
+          </block>
+        </value>
+        <value name="ADD59">
+          <block type="text" id="]ykn57cJyzK;(%!`^hJL">
+            <field name="TEXT">4,80</field>
+          </block>
+        </value>
+        <value name="ADD60">
+          <block type="text" id="p,TnZ#A{,IXNT@4*47iT">
+            <field name="TEXT">6,50</field>
+          </block>
+        </value>
+        <value name="ADD61">
+          <block type="text" id="C0fQN2!kx]D?5GBJ=R9[">
+            <field name="TEXT">8,50</field>
+          </block>
+        </value>
+        <value name="ADD62">
+          <block type="text" id="=o_C]raSxO-ER6N_`:}M">
+            <field name="TEXT">5,50</field>
+          </block>
+        </value>
+        <value name="ADD63">
+          <block type="text" id="n(*t*(clHDp{NZ5??%-Y">
+            <field name="TEXT">8,50</field>
+          </block>
+        </value>
+        <value name="ADD64">
+          <block type="text" id="an..YKq8sZ;Q[~/oMa7@">
+            <field name="TEXT">9</field>
+          </block>
+        </value>
+        <value name="ADD65">
+          <block type="text" id="_lg;3UUrNbelWqT*Jko|">
+            <field name="TEXT">9</field>
+          </block>
+        </value>
+        <value name="ADD66">
+          <block type="text" id=";ad]9apimTKIsJ(DgV2a">
+            <field name="TEXT">9</field>
+          </block>
+        </value>
+        <value name="ADD67">
+          <block type="text" id="{m#a?rlK(*rD#s$Z[e.~">
+            <field name="TEXT">4,80</field>
+          </block>
+        </value>
+        <value name="ADD68">
+          <block type="text" id="=%E9Y]wdZW*7LZ5-p6/n">
+            <field name="TEXT">4,80</field>
+          </block>
+        </value>
+        <value name="ADD69">
+          <block type="text" id="b$K,=s=[)!~#I)BIsFXI">
+            <field name="TEXT">4,80</field>
+          </block>
+        </value>
+        <value name="ADD70">
+          <block type="text" id="Ik[(g:x#mbcO)RKXt]4X">
+            <field name="TEXT">5</field>
+          </block>
+        </value>
+        <value name="ADD71">
+          <block type="text" id="IFjTI+U41KzRhH};aR#$">
+            <field name="TEXT">10</field>
+          </block>
+        </value>
+        <value name="ADD72">
+          <block type="text" id="yF#K)a=6ai@PNSkB{Y|~">
+            <field name="TEXT">8,50</field>
+          </block>
+        </value>
+        <value name="ADD73">
+          <block type="text" id="0QhM]Kl[YY{@MWij_[47">
+            <field name="TEXT">5</field>
+          </block>
+        </value>
+        <value name="ADD74">
+          <block type="text" id="GZ=,Qw1-E#!L:Q(Gm2)J">
+            <field name="TEXT">4,80</field>
+          </block>
+        </value>
+        <value name="ADD75">
+          <block type="text" id="Q;I}[^/KH_$8M+3Ms~~M">
+            <field name="TEXT">7</field>
+          </block>
+        </value>
+        <value name="ADD76">
+          <block type="text" id="Yv-,g%cw_yB[WXJ|39Ok">
+            <field name="TEXT">9,50</field>
+          </block>
+        </value>
+        <value name="ADD77">
+          <block type="text" id="KV8zxm^z8Lx-Z?:]T2?2">
+            <field name="TEXT">50</field>
+          </block>
+        </value>
+      </block>
+    </value>
+  </block>
+  <block type="component_event" id="dZ5[N/=,4a4is$(F|gVk" x="-1423" y="228">
+    <mutation component_type="Button" is_generic="false" instance_name="AnswerButton" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">AnswerButton</field>
+    <statement name="DO">
+      <block type="controls_if" id="K34lbN:4.y/0=]QXTE2+">
+        <mutation else="1"></mutation>
+        <value name="IF0">
+          <block type="math_compare" id="tqYZ+U^oOKz_tCZ]F1!c">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="component_set_get" id="V!x,w^!2zHwu|gH7vb5o">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="AnswerText"></mutation>
+                <field name="COMPONENT_SELECTOR">AnswerText</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="lists_select_item" id="L%C8N$V:?#]OgA2RD;._">
+                <value name="LIST">
+                  <block type="lexical_variable_get" id=",#KWY!=JV%P/#$gFUBQ3">
+                    <field name="VAR">global AnswerList</field>
+                  </block>
+                </value>
+                <value name="NUM">
+                  <block type="lexical_variable_get" id="4jmraae-I@9z2Rb](Y}p">
+                    <field name="VAR">global currentQuestionIndex</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="component_set_get" id="(L?~#-D5*xLLJln+wJz(">
+            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="RightWrongLabel"></mutation>
+            <field name="COMPONENT_SELECTOR">RightWrongLabel</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="text" id=",T/lyo|$Zpb^d_)Zj;2A">
+                <field name="TEXT">Bien Ouej !!!! t'as gagné une binche!                Non j'déconne!</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="component_set_get" id="6O7Jp{`:,@9j3}MOtND_">
+            <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="RightWrongLabel"></mutation>
+            <field name="COMPONENT_SELECTOR">RightWrongLabel</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="text" id="lh=it{$*qFBWoHFX$k@_">
+                <field name="TEXT">T'es sérieux là  ?!   C'est ça du tout ..... tu peux le retenter!</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="196" language-version="27"></yacodeblocks>
+</xml>
