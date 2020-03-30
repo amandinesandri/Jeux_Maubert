@@ -5,7 +5,7 @@ Two codes ar available to take the quiz game:
 
 ## Launch command
 
-*Note: It is important to pay attention that the script is executed in the same directory *
+*Note: It is important to pay attention that the script is executed in the same directory*
 
 ```bash
 python Jeu_test_prix_Maubert.py 
