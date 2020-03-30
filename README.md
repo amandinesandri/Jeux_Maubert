@@ -15,8 +15,8 @@ python Jeu_test_prix_Maubert.py
 
 # SCREENSHOTS de l'App
  
-
-![alt text](https://github.com/amandinesandri/Jeux_Maubert/blob/master/screenshots/20200330_165756.jpg =250x250)
+<img src="https://github.com/amandinesandri/Jeux_Maubert/blob/master/screenshots/20200330_165756.jpg" width="100" height="100">
+![alt text](https://github.com/amandinesandri/Jeux_Maubert/blob/master/screenshots/20200330_165756.jpg)
 ![alt text](https://github.com/amandinesandri/Jeux_Maubert/blob/master/screenshots/Screenshot_20200330-165812.jpg)
 ![alt text](https://github.com/amandinesandri/Jeux_Maubert/blob/master/screenshots/Screenshot_20200330-165824.jpg)
 ![alt text](https://github.com/amandinesandri/Jeux_Maubert/blob/master/screenshots/Screenshot_20200330-165836.jpg)
