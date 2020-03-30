@@ -17,3 +17,9 @@ python Jeu_test_prix_Maubert.py
  
 
 ![alt text](https://github.com/amandinesandri/Jeux_Maubert/blob/master/screenshots/20200330_165756.jpg)
+![alt text](https://github.com/amandinesandri/Jeux_Maubert/blob/master/screenshots/Screenshot_20200330-165812.jpg)
+![alt text](https://github.com/amandinesandri/Jeux_Maubert/blob/master/screenshots/Screenshot_20200330-165824.jpg)
+![alt text](https://github.com/amandinesandri/Jeux_Maubert/blob/master/screenshots/Screenshot_20200330-165836.jpg)
+![alt text](https://github.com/amandinesandri/Jeux_Maubert/blob/master/screenshots/Screenshot_20200330-165856.jpg)
+![alt text](https://github.com/amandinesandri/Jeux_Maubert/blob/master/screenshots/Screenshot_20200330-165909.jpg)
+![alt text](https://github.com/amandinesandri/Jeux_Maubert/blob/master/screenshots/Screenshot_20200330-165916.jpg)
